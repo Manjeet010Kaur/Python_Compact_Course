@@ -1,0 +1,4 @@
+fhenv/ 
+__pycache__/ 
+*.pyc 
+.vscode/ 
