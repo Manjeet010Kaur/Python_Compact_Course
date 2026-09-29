@@ -1,0 +1,20 @@
+"""Given a string s1, write a program to return the sum and average of the digits that 
+appear in the string, ignoring all other characters"""
+
+s1 = "123mynameis334manjeet4"
+
+digit_sum = 0
+count = 0
+
+
+for char in s1:
+
+    if char.isdigit():
+        digit_sum = digit_sum + int(char)
+        count = count + 1
+
+
+average = digit_sum / count
+
+print("Sum of digits:", digit_sum)
+print("Average of digits:", average)
